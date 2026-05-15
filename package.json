@@ -1,0 +1,17 @@
+{
+  "name": "news-hub-root",
+  "private": true,
+  "main": "backend/server.js",
+  "engines": {
+    "node": "22.x"
+  },
+  "scripts": {
+    "dev:frontend": "cd frontend && npm run dev",
+    "dev:backend": "cd backend && npm run dev",
+    "dev": "npm run fullstack",
+    "start": "node backend/server.js",
+    "build:frontend": "cd frontend && npm run build",
+    "build": "cd frontend && npm install && npm run build",
+    "fullstack": "powershell -ExecutionPolicy Bypass -File ./dev.ps1"
+  }
+}

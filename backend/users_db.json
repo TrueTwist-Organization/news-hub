@@ -1,0 +1,14 @@
+[
+  {
+    "email": "abcd@gmail.com",
+    "password": "12345",
+    "role": "user",
+    "_id": "local_1778844471813"
+  },
+  {
+    "email": "ri@gmail.com",
+    "password": "abcd",
+    "role": "user",
+    "_id": "local_1778844546069"
+  }
+]
